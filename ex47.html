@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 47</title>
+
+    <script>
+        var numero = 1
+
+        function trocarImagem() {
+            var imagem = document.querySelector("img")
+
+            if (numero == 1) {
+                imagem.src = "assets/img/imagem 2.jpeg"
+                numero = 2
+            } else {
+                imagem.src = "assets/img/imagem 1.jpeg"
+                numero = 1
+            }
+        }
+    </script>
+</head>
+<body>
+    <img src="assets/img/imagem 1.jpeg" width="300">
+
+    <br><br>
+
+    <button onclick="trocarImagem()">Trocar imagem</button>
+</body>
+</html>

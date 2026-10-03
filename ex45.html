@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 45</title>
+
+    <script>
+        var curtidas = 0
+
+        function curtir() {
+            curtidas = curtidas + 1
+            document.querySelector("#resultado").innerText = curtidas
+        }
+    </script>
+</head>
+<body>
+    <button onclick="curtir()">Curtir</button>
+
+    <p>Curtidas: <span id="resultado">0</span></p>
+</body>
+</html>

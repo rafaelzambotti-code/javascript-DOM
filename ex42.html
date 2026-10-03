@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 42</title>
+
+    <script>
+        function mudarFundo() {
+            var cores = ["red", "blue", "green", "yellow", "purple"]
+            var numero = Math.floor(Math.random() * cores.length)
+            var pagina = document.querySelector("body")
+
+            pagina.style.backgroundColor = cores[numero]
+        }
+    </script>
+</head>
+<body>
+    <button onclick="mudarFundo()">Mudar fundo</button>
+</body>
+</html>

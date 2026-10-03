@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Exercício 48</title>
+
+    <script>
+        function adicionarTarefa() {
+            var tarefa = document.querySelector("input").value
+            var item = document.createElement("li")
+
+            item.innerText = tarefa
+
+            document.querySelector("ul").appendChild(item)
+        }
+    </script>
+</head>
+<body>
+    <input type="text">
+
+    <button onclick="adicionarTarefa()">Adicionar tarefa</button>
+
+    <ul></ul>
+</body>
+</html>

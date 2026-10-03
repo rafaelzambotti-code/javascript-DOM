@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 32</title>
+    <script>
+        function adicionarItem() {
+            var lista = document.querySelector("ul")
+            var item = document.createElement("li")
+
+            item.innerText = "Novo item"
+
+            lista.appendChild(item)
+        }
+    </script>
+</head>
+<body>
+    <ul>
+        <li>Primeiro item</li>
+    </ul>
+
+    <button onclick="adicionarItem()">Adicionar item</button>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Exercício 49</title>
+
+    <script>
+        function mudarTema() {
+            var pagina = document.querySelector("body")
+
+            if (pagina.style.backgroundColor == "black") {
+                pagina.style.backgroundColor = "white"
+                pagina.style.color = "black"
+            } else {
+                pagina.style.backgroundColor = "black"
+                pagina.style.color = "white"
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Minha página</h1>
+
+    <button onclick="mudarTema()">Mudar tema</button>
+</body>
+</html>

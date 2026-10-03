@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+    <script>
+        function mostrarTextos() {
+            var texto1 = document.querySelector("#texto1").innerText
+            var texto2 = document.querySelector("#texto2").innerText
+            var texto3 = document.querySelector("#texto3").innerText
+            console.log(texto1)
+            console.log(texto2)
+            console.log(texto3)
+        }
+    </script>
+</head>
+<body>
+    <p id="texto1">Primeiro parágrafo</p>
+    <p id="texto2">Segundo parágrafo</p>
+    <p id="texto3">Terceiro parágrafo</p>
+    <button onclick="mostrarTextos()">Mostrar textos</button>
+</body>
+</html>
